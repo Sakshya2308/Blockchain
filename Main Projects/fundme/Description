@@ -1,0 +1,9 @@
+Blockchain Project.
+Smart contract (FundMe.sol) created in which:
+1. Funds can be sent by users.
+2. Owner can withdraw the funds.
+An array of addresses of funders is maintained and an additional library(PriceConverter.sol) created and linked with FundMe.
+ABI: AggregatorV3Interface
+Test Nework: Goerli,
+Chainlink: Oracle Chainlink.
+IDE: Remix - Ethereum IDE
