@@ -1,5 +1,5 @@
 //Normal setup of our scripts
-const ethers = require("ethers");
+const ethers = require("ethers");  // const - so that we cannot change ethers variable, require("ethers")- import ethers package
 
 
 async function main(){
