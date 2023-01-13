@@ -1,0 +1,8 @@
+Secured private key and password through .env file and encrypted it.
+
+1. Inside .env file we created the PRIVATE_KEY and a PRIVATE_KEY_PASSWORD variable.
+2. To make sure that the private key is safe we encrypted it by creating encryptKey.js.
+3. By executing encryptKey.js a json file was created which was linked to .env file, so we removed PRIVATE_KEY and PRIVATE_KEY_PASSWORD variable from .env file.
+
+Now none of the files have private key and private key password (It is
+encrypted). So even if the hacker has excess to our encryptKey.js or encryptedKey.json, it is protected by password.  
