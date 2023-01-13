@@ -1,0 +1,5 @@
+Deployed contract in which a number is stored using GANACHE v2.5.4 as RPC private key provider.
+Further made a prototype by creating app on alchemy and using the HTTPS of the app as RPC provider and Private key of metamask wallet. The testnet used was goerli.
+Improved the security by encrypting the Private key by creating an additional encryptKey.js file linking with .env file where initially tha PRIVATE_KEY and PRIVATE_KEY_PASSWORD was stored which was later removed.
+Used .gitignore to ignore the .env, node_modules and encryptedKey.json.
+Created an additional .prettierrc file so that other developers can use the same format used in the project.
